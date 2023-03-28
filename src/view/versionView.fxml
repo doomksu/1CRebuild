@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="122.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VersionController">
+   <children>
+      <Label layoutX="70.0" layoutY="57.0" prefHeight="19.0" prefWidth="60.0" text="Версия" />
+      <Label fx:id="versionNumberLabel" layoutX="130.0" layoutY="57.0" prefHeight="19.0" prefWidth="60.0" />
+   </children>
+</AnchorPane>
